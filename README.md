@@ -4,7 +4,7 @@ This repository contains the code developed for the thesis at Universidad André
 
 > **Pretrained Models**
 
-> This repository includes the full codebase for the project. The pretrained models are available on Hugging Face and can be accessed at the following link:
+> This repository includes the full codebase for the project. The pretrained models are available on Hugging Face Hub and can be accessed at the following link:
 > [https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning](https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning)
 
 The codes are stored in the "Code" folder. For the facial modality, there are four codes: two implementing individual models, each using a different data balancing method, and two named "Ensemble," which present ensemble models developed by combining different architectures. Among these, the file "2_codeEnsembleWithWeights.ipynb" stands out as the most relevant. Regarding the textual modality, only the file "code.ipynb" is included, which uses the CSV files generated directly within the same code.
