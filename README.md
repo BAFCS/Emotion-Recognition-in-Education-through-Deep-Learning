@@ -3,6 +3,7 @@
 This repository contains the code developed for the thesis at Universidad Andrés Bello, aimed at creating innovative unimodal facial and textual models for emotion recognition in the educational field, with the purpose of providing robust and accurate models applicable to educational systems, facilitating feedback and comprehension of emotions, and laying the foundation for future multimodal integration.
 
 **Pretrained Models**
+
 This repository includes the full codebase for the project. The pretrained models are available on Hugging Face and can be accessed at the following link:
 [https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning](https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning)
 
