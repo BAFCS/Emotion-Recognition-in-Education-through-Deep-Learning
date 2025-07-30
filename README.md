@@ -2,6 +2,10 @@
 
 This repository contains the code developed for the thesis at Universidad Andrés Bello, aimed at creating innovative unimodal facial and textual models for emotion recognition in the educational field, with the purpose of providing robust and accurate models applicable to educational systems, facilitating feedback and comprehension of emotions, and laying the foundation for future multimodal integration.
 
+**Pretrained Models**
+This repository includes the full codebase for the project. The pretrained models are available on Hugging Face and can be accessed at the following link:
+[https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning](https://huggingface.co/BAFCS/Emotion-Recognition-in-Education-through-Deep-Learning)
+
 The models are stored in the "Code" folder. For the facial modality, there are four codes: two implementing individual models, each using a different data balancing method, and two named "Ensemble," which present ensemble models developed by combining different architectures. Among these, the file "2_codeEnsembleWithWeights.ipynb" stands out as the most relevant. Regarding the textual modality, only the file "code.ipynb" is included, which uses the CSV files generated directly within the same code.
 
 For the facial modality, a methodology was proposed that combines two widely used datasets in emotion recognition: FER2013 and CK+48. This combination was complemented by two data balancing approaches: the use of weighted weights to adjust the importance of each class according to its representation in the dataset, and the generation of synthetic data using data augmentation techniques, which helped balance the classes. The model developed for this modality is an ensemble model, designed to improve generalization in emotion recognition.
